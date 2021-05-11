@@ -274,6 +274,8 @@ footer .phone h5, footer .mail h5{
    }
    /* article */
    section article{
+    top: 0;
+    position: sticky;
     display: block;
     width: auto;
     margin-bottom: 1rem;
