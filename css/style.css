@@ -44,6 +44,11 @@ header ul, nav{
 header nav ul{
     width: 100%;    
 }
+header .main-title{
+    letter-spacing: 0.750rem;
+    color: #e6cb48;
+    font-weight: 600;
+}
 nav ul li{
     display: inline-block;
 }
@@ -304,4 +309,11 @@ footer .phone h5, footer .mail h5{
         line-height: 2rem;
     }
 
+}
+@media screen and (orientation: landscape){
+    nav ul li a{
+      
+        font-size: 2.6rem;
+        
+    }
 }
