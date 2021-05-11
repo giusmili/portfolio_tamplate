@@ -239,7 +239,7 @@ footer .phone h5, footer .mail h5{
     line-height: 3.5rem;
     
 }
-/* responsive */
+/* mobile */
 @media screen and (max-width: 70rem){
     header{
         position: initial;
@@ -313,6 +313,13 @@ footer .phone h5, footer .mail h5{
 
 }
 @media screen and (orientation: landscape){
+    nav ul li a{
+      
+        font-size: 2rem;
+        
+    }
+}
+@media screen and (min-width: 80rem){
     nav ul li a{
       
         font-size: 2.6rem;
